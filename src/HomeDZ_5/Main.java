@@ -19,9 +19,9 @@ public class Main {
             arr[i] = 1;
         }
 
-        first10000000method(arr);
+        first10000000method(arr); /*выполняем первую часть задания*/
 
-        tread1.start();
+        tread1.start(); /*делаем два потока по разделению массива на две части и соединения обратно*/
         tread2.start();
 
     }
